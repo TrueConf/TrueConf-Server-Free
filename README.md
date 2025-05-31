@@ -7,6 +7,8 @@ TrueConf Server Free Messenger with Video Calls for Corporate Communications
 - Client applications for all popular platforms
 - Fully secure solution for corporate network
 
+<p align="center"><a href="https://github.com/TrueConf/TrueConf-Server-Free/releases/"><img src="./images/download.svg" width="200"></a></p>
+
 ## How to install TrueConf Server Free?
 
 TrueConf offers you an opportunity to take [full advantage](https://trueconf.com/features.html) of corporate video conferencing on various Linux-based operating systems. Only 64-bit versions of the OS are supported.
