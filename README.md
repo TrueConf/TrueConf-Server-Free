@@ -47,7 +47,7 @@ Use keyboard shortcuts and drag-and-drop for quick chat interaction. Besides, th
 
 Mention group chat participants to draw their attention to your message.
 
-<p align="center"><img src="./images/chats.png" height="400px"></p>
+<p align="center"><img src="./images/chats.png" width="500px"></p>
 
 ### Collaboration without borders
 
