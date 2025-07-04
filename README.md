@@ -1,5 +1,26 @@
 # TrueConf Server Free: Secure Video Conferencing System and Corporate Messenger for 1000 Users
 
+<details>
+
+<summary>Table of Contents</summary>
+
+- [Features](#features)
+- [Video conferencing](#video-conferencing)
+- [Corporate messenger](#corporate-messenger)
+- [Collaboration without borders](#collaboration-without-borders)
+- [Share content in high quality](#share-content-in-high-quality)
+- [Flexible conference management](#flexible-conference-management)
+- [TrueConf Server workflow](#trueconf-server-workflow)
+- [Comparison of TrueConf Server Free and TrueConf Server](#comparison-of-trueconf-server-free-and-trueconf-server)
+- [How to install TrueConf Server Free?](#how-to-install-trueconf-server-free)
+- [Mandatory preliminary steps](#mandatory-preliminary-steps)
+- [Windows](#windows)
+- [Linux](#linux)
+  - [Debian](#debian)
+  - [CentOS](#centos)
+
+</details>
+
 ## Description
 
 TrueConf Server Free is an all-in-one corporate communications platform with a built-in messenger, video conferencing, and collaboration tools.
