@@ -4,20 +4,21 @@
 
 <summary>Table of Contents</summary>
 
+- [Description](#description)
 - [Features](#features)
-- [Video conferencing](#video-conferencing)
-- [Corporate messenger](#corporate-messenger)
-- [Collaboration without borders](#collaboration-without-borders)
-- [Share content in high quality](#share-content-in-high-quality)
-- [Flexible conference management](#flexible-conference-management)
+  - [Video conferencing](#video-conferencing)
+  - [Corporate messenger](#corporate-messenger)
+  - [Collaboration without borders](#collaboration-without-borders)
+  - [Share content in high quality](#share-content-in-high-quality)
+  - [Flexible conference management](#flexible-conference-management)
 - [TrueConf Server workflow](#trueconf-server-workflow)
 - [Comparison of TrueConf Server Free and TrueConf Server](#comparison-of-trueconf-server-free-and-trueconf-server)
 - [How to install TrueConf Server Free?](#how-to-install-trueconf-server-free)
-- [Mandatory preliminary steps](#mandatory-preliminary-steps)
-- [Windows](#windows)
-- [Linux](#linux)
-  - [Debian](#debian)
-  - [CentOS](#centos)
+  - [Mandatory preliminary steps](#mandatory-preliminary-steps)
+  - [Windows](#windows)
+  - [Linux](#linux)
+    - [Debian](#debian)
+    - [CentOS](#centos)
 
 </details>
 
