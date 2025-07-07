@@ -1,10 +1,34 @@
-# TrueConf Server Free: Secure Video Conferencing System and Corporate Messenger for 1000 Users
+<p align="center">
+  <a href="https://trueconf.com" target="_blank" rel="noopener noreferrer">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://trueconf.com/images/headMenu/logo.svg">
+      <img width="150" src="https://trueconf.com/images/headMenu/logo.svg">
+    </picture>
+  </a>
+</p>
+
+<h1 align="center">TrueConf Server Free: Secure Video Conferencing System and Corporate Messenger for 1000 Users</h1>
+
+<p align="center">TrueConf Server Free is an all-in-one corporate communications platform with a built-in messenger, video conferencing, and collaboration tools.</p>
+
+<p align="center">
+    <a href="https://t.me/trueconf_chat" target="_blank">
+        <img src="https://img.shields.io/badge/telegram-group-blue?style=flat-square&logo=telegram" />
+    </a>
+    <a href="https://chat.whatsapp.com/GY97WBzSgvD1cJG0dWEiGP">
+        <img src="https://img.shields.io/badge/whatsapp-commiunity-gree?style=flat-square&logo=whatsapp" />
+    </a>
+    <a href="https://hub.docker.com/r/trueconf/trueconf-server" target="_blank">
+        <img src="https://img.shields.io/docker/pulls/trueconf/trueconf-server?style=flat-square&logo=docker" />
+    </a>
+</p>
+
+<p align="center"><img src="./images/head.png" width="600px"></p>
 
 <details>
 
 <summary>Table of Contents</summary>
 
-- [Description](#description)
 - [Features](#features)
   - [Video conferencing](#video-conferencing)
   - [Corporate messenger](#corporate-messenger)
@@ -19,12 +43,9 @@
   - [Linux](#linux)
     - [Debian](#debian)
     - [CentOS](#centos)
+  - [Docker](#docker)
 
 </details>
-
-## Description
-
-TrueConf Server Free is an all-in-one corporate communications platform with a built-in messenger, video conferencing, and collaboration tools.
 
 ## Features
 
@@ -198,3 +219,7 @@ sudo dnf install -y trueconf-server-name.rpm
 where `trueconf-server-name.rpm` is the name of the installation package.
 
 During installation you will see the input field for entering the logins of those OS users who will be allowed to access the control panel as administrators. Enter the login of the user created before. It is possible to specify multiple logins (separated by commas) at the same time.
+
+### Docker
+
+To learn how to run TrueConf Server in a Docker container, read [this article](https://trueconf.com/blog/knowledge-base/how-to-run-trueconf-server-in-a-docker-container).
