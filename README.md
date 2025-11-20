@@ -223,4 +223,10 @@ During installation you will see the input field for entering the logins of thos
 
 ### Docker
 
-To learn how to run TrueConf Server in a Docker container, read [this article](https://trueconf.com/blog/knowledge-base/how-to-run-trueconf-server-in-a-docker-container).
+TrueConf Server can also be launched inside a Docker container using a command such as:
+
+```sh
+sudo docker run [OPTIONS] trueconf/trueconf-server:stable
+```
+
+For detailed instructions, configuration examples, and recommended parameters, read [this article](https://trueconf.com/blog/knowledge-base/how-to-run-trueconf-server-in-a-docker-container).
