@@ -61,7 +61,8 @@ TrueConf Server Free offers the following features:
 * Call history and chat syncing across all devices.
 * LDAP integration.
 
-<p align="center"><a href="https://github.com/TrueConf/TrueConf-Server-Free/releases/"><img src="./images/download.svg" width="200"></a></p>
+<p align="center"><a href="https://github.com/TrueConf/TrueConf-Server-Free/releases/latest"><img src="./images/download.svg" width="200"></a></p>
+<p align="center"><a href="#docker"><img src="./images/docker.svg" width="200"></a></p>
 
 ### Video conferencing
 
