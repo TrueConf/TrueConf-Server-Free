@@ -1,0 +1,58 @@
+name: Publish release to GitHub
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag_name:
+        description: 'Existing tag for release'
+        required: true
+      release_name:
+        description: 'Release Title (default = tag)'
+        required: false
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    env:
+      ASSET_URLS: |
+        https://trueconf.com/download/server/windows/trueconf_server_setup.exe
+        https://trueconf.com/download/server/linux/trueconf_server_debian11_amd64.deb
+        https://trueconf.com/download/server/linux/trueconf_server_debian12_amd64.deb
+        https://trueconf.com/download/server/linux/trueconf_server_debian13_amd64.deb
+        https://trueconf.com/download/server/linux/trueconf_server_centos_stream9_x86_64.rpm
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Download assets
+        run: |
+          set -e
+          mkdir -p assets
+
+          echo "Download files:"
+          echo "$ASSET_URLS" | while IFS= read -r url; do
+            [ -z "$url" ] && continue
+            echo "  -> $url"
+
+            filename=$(basename "${url%%\?*}")
+            [ -z "$filename" ] && filename="file-$(date +%s)-$RANDOM"
+
+            curl -L "$url" -o "assets/$filename"
+          done
+
+          echo "Contents of the assets folder:"
+          ls -l assets
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.tag_name }}
+          name: ${{ github.event.inputs.release_name || github.event.inputs.tag_name }}
+          draft: false
+          prerelease: false
+          files: assets/*
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
