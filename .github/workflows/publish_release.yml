@@ -57,6 +57,9 @@ jobs:
           tag_name: ${{ github.event.inputs.tag_name }}
           target_commitish: ${{ github.event.inputs.target }}
           name: ${{ github.event.inputs.release_name || github.event.inputs.tag_name }}
+          body: |
+            See full changelog for TrueConf Server:
+            https://trueconf.com/products/changelog.html#server
           draft: false
           prerelease: false
           files: assets/*
